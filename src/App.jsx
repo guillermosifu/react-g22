@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-    <App2/>
+    {/* <App2/> */}
 
 
-    {/* <EjemploGit/> */}
+    <EjemploGit/> 
     
 
 
