@@ -1,9 +1,12 @@
 import { useState } from "react";
-
+import DarkMode from "./DarkMode";
 import App2 from "./login/App2";
-
 import "./App.css";
 import EjemploGit from "./EjemploGit";
+import Visible from "./Visible";
+import Contador from "./Contador";
+import Formulario from "./Formulario";
+import Pokemon from "./pages/pokemon/Pokemon";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,17 +14,14 @@ function App() {
   return (
     <>
     {/* <App2/> */}
-
-
-    <EjemploGit/> 
+    {/* <Visible/> */}
+    {/* <DarkMode/>  */}
+    {/* <Contador/> */}
+    <Pokemon/>
     
 
 
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div> */}
+  
     </>
   );
 }
