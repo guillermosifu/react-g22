@@ -40,7 +40,7 @@ const Pokemon = () => {
                   <h3> {pokemon.name}</h3>
                   <h3>Numero : </h3>
                 </CardContent>
-                <PokemonDetail/>
+                <PokemonDetail nombre={pokemon.name} url={pokemon.url} />
               </Card>
             </Grid>
           ))}
