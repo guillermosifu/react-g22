@@ -50,9 +50,11 @@ const PokemonDetail = (props) => {
                     <Chip label={abilitie.ability.name} />
                   ))}
                   <h4>Datos</h4>
-                  {pokemonData.abilities.map((abilitie) => (
-                    <Chip label={abilitie.ability.name} />
-                  ))}
+                    <Chip
+                     label={`${pokemonData.height/10}m`}/>
+                     <Chip
+                     label={`${pokemonData.weight /10}Kg`}/>
+
 
                 </Grid>
               </Grid>

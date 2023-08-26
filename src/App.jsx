@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Router from "./router/router";
 import DarkMode from "./DarkMode";
 import App2 from "./login/App2";
 import "./App.css";
@@ -17,7 +18,8 @@ function App() {
     {/* <Visible/> */}
     {/* <DarkMode/>  */}
     {/* <Contador/> */}
-    <Pokemon/>
+    {/* <Pokemon/> */}
+    <Router/>
     
 
 
